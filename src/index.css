@@ -1,0 +1,153 @@
+body {
+  background-color: #161616;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  margin: 0;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main h1 {
+  color: #d1d1d1;
+  font-size: 3.5rem;
+  margin-bottom: 5px;
+}
+
+main h1 span {
+  color: #00BECC;
+}
+
+main p {
+  color: #9B9B9B;
+  font-size: 1.2rem;
+}
+
+.timer-container {
+  margin-top: 30px;
+}
+
+.time-section {
+  font-size: 2.5rem;
+}
+
+.mode-buttons {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 400px;
+}
+
+.mode-buttons li {
+  margin-right: 33px;
+}
+
+.mode-buttons button {
+  background-color: #444444;
+  border: none;
+  border-radius: 50%;
+  color: #d1d1d1;
+  cursor: pointer;
+  font-size: 1rem;
+  height: 80px;
+  -moz-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
+  -webkit-transition: 0.2s linear;
+  width: 80px;
+}
+
+.mode-buttons button:hover {
+  background-color: #00BECC;
+  color: #fff;
+}
+
+.buttons-container {
+  padding: 25px;
+}
+
+.buttons-container button {
+  background: none;
+  border: none;
+  color: #ffff;
+  cursor: pointer;
+  font-size: 2.5rem;
+  height: 50px;
+  width: 50px;
+}
+
+button.active {
+  color: #00BECC;
+}
+
+.form-section {
+  padding-top: 35px;
+  margin-bottom: 50px;
+}
+
+.config-inputs-container label {
+  align-items: center;
+  color: #d1d1d1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.config-input {
+  background-color: #444444;
+  border: none;
+  border-radius: 50%;
+  color: #00BECC;
+  font-size: 2rem;
+  height: 80px;
+  text-align: center;
+  width: 80px;
+}
+
+.config-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+form button {
+  background: none;
+  background-color: #444444;
+  border: none;
+  border-radius: 15px;
+  color: #d1d1d1;
+  cursor: pointer;
+  font-size: 1rem;
+  height: 40px;
+  width: 90px;
+}
+
+form button:hover {
+  background-color: #00BECC;
+  color: #fff;
+  -moz-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
+  -webkit-transition: 0.2s linear;
+}
+
+footer {
+  font-size: 0.9rem;
+  padding-bottom: 10px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
